@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Buddy | Your Personal Buddy in Rooms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Room BuDDy!</h1>
+            <p>Your Personal Buddy in Rooms</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Partner Us</a></li>
+            </ul>
+        </nav>
+        <div class="user-options">
+            <button class="help-button">Help</button>
+            <div class="user-icon">
+                <a href="file:///C:/Users/akash/Desktop/MiniProject/Home%20Interface/owner_interface.html"><img src="profile.png" alt="User Icon"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <aside class="filters">
+            <h3>Filters</h3>
+            <form>
+                <label>Monthly Rent</label>
+                <ul>
+                    <li><input type="radio" name="rent" value="<1000"> Less than Rs.1000</li>
+                    <li><input type="radio" name="rent" value="1000-1500"> Rs.1000 - Rs.1500</li>
+                    <li><input type="radio" name="rent" value="1500-2000"> Rs.1500 - Rs.2000</li>
+                    <li><input type="radio" name="rent" value=">2000"> More than Rs.2000</li>
+                </ul>
+
+                <label>Gender</label>
+                <ul>
+                    <li><input type="radio" name="gender" value="male"> Male</li>
+                    <li><input type="radio" name="gender" value="female"> Female</li>
+                </ul>
+
+                <label>Occupancy</label>
+                <ul>
+                    <li><input type="radio" name="occupancy" value="single"> Single Bed</li>
+                    <li><input type="radio" name="occupancy" value="double"> Double Bed</li>
+                    <li><input type="radio" name="occupancy" value="triple"> Triple Bed</li>
+                    <li><input type="radio" name="occupancy" value="four"> Four Bed</li>
+                </ul>
+
+                <label>Other</label>
+                <ul>
+                    <li><input type="checkbox" name="Wifi">Internet (WiFi)</li>
+                    <li><input type="checkbox" name="Hot water"> Hot Water</li>
+                    <li><input type="checkbox" name="Gym"> Gym</li>
+                    <li><input type="checkbox" name="Parking"> Parking</li>
+                    <li><input type="checkbox" name="Security"> 24/7 Security</li>
+                    <li><input type="checkbox" name="Laundry"> Laundry Service</li>
+                    <li><input type="checkbox" name="Balcony"> Balcony</li>
+                    <li><input type="checkbox" name="Kitchen"> Kitchen Facilities</li>
+                    <li><input type="checkbox" name="Desk">Desk & Chair</li>
+                </ul>
+
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+
+        <section class="results">
+            <h3>Available Rooms</h3>
+            <div class="rooms">
+                <div class="room-card">
+                    <img src="room1.jpeg" alt="Room Image">
+                    <div class="details">
+                        <h4>Room 1</h4>
+                        <p>Rs.1200 / month</p>
+                        <p class="stars">★★★★☆</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="room2.jpeg" alt="Room Image">
+                    <div class="details">
+                        <h4>Room 2</h4>
+                        <p>Rs.1800 / month</p>
+                        <p class="stars">★★★★☆</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="room3.jpeg" alt="Room Image">
+                    <div class="details">
+                        <h4>Room 3</h4>
+                        <p>Rs.2000 / month</p>
+                        <p class="stars">★★★★★</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="room4.jpeg" alt="Room Image">
+                    <div class="details">
+                        <h4>Room 3</h4>
+                        <p>Rs.1500 / month</p>
+                        <p class="stars">★★★☆☆</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="room5.jpeg" alt="Room Image">
+                    <div class="details">
+                        <h4>Room 4</h4>
+                        <p>Rs.1600 / month</p>
+                        <p class="stars">★★★★☆</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <img src="room6.jpeg" alt="Room Image">
+                    <div class="details">
+                        <h4>Room 5</h4>
+                        <p>Rs.2500 / month</p>
+                        <p class="stars">★★★★★</p>
+                        <button>View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
